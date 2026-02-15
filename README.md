@@ -19,14 +19,15 @@ Implemented 6 models on the same train/test split:
 6. XGBoost (Ensemble)
 
 ### Comparison Table ( after running `train_and_save_models.py`)
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|---|---:|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.9825 | 0.9954 | 0.9861 | 0.9861 | 0.9861 | 0.9623 |
+| Decision Tree | 0.9123 | 0.9157 | 0.9559 | 0.9028 | 0.9286 | 0.8174 |
+| KNN | 0.9737 | 0.9884 | 0.9600 | 1.0000 | 0.9796 | 0.9442 |
+| Naive Bayes (Gaussian) | 0.9386 | 0.9878 | 0.9452 | 0.9583 | 0.9517 | 0.8676 |
+| Random Forest (Ensemble) | 0.9474 | 0.9937 | 0.9583 | 0.9583 | 0.9583 | 0.8869 |
+| XGBoost (Ensemble) | 0.9561 | 0.9947 | 0.9467 | 0.9861 | 0.9660 | 0.9058 |
 
-ML Model Name	Accuracy	AUC	Precision	Recall	F1	MCC
-Logistic Regression	0.9825	0.9954	0.9861	0.9861	0.9861	0.9623
-Decision Tree	0.9123	0.9157	0.9559	0.9028	0.9286	0.8174
-KNN	0.9737	0.9884	0.9600	1.0000	0.9796	0.9442
-Naive Bayes (Gaussian)	0.9386	0.9878	0.9452	0.9583	0.9517	0.8676
-Random Forest (Ensemble)	0.9474	0.9937	0.9583	0.9583	0.9583	0.8869
-XGBoost (Ensemble)	0.9561	0.9947	0.9467	0.9861	0.9660	0.9058
 
 
 ### Observations on Model Performance
